@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
 <h2>Данные из индекса</h2>
+
+<img src="{% static 'img\1.jpg' %}" height="300" NAME="MyImage">
 
 {% include 'index_bak.html' %}
 
