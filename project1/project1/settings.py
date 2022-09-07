@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'cms.apps.CmsConfig',
     'crm.apps.CrmConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -120,6 +121,5 @@ USE_TZ = True
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "project1/static"),
 ]
-
 
 STATIC_URL = '/static/'
